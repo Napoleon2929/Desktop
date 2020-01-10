@@ -1,0 +1,19 @@
+﻿<Window x:Class="Desktop.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Desktop"
+        mc:Ignorable="d"
+        Title="Authorization" Height="207.334" Width="309.667"
+        ResizeMode="NoResize">
+    <Grid Margin="0,0,2,0">
+        <TextBox x:Name="Login_Textbox" HorizontalAlignment="Left" Height="19" Margin="34,44,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="226"/>
+        <PasswordBox x:Name="Password_Textbox"  HorizontalAlignment="Left" Height="19" Margin="34,100,0,0" VerticalAlignment="Top" Width="226"/>
+        <Label Content="Login" HorizontalAlignment="Left" Height="27" Margin="34,12,0,0" VerticalAlignment="Top" Width="64"/>
+        <Label Content="Password" HorizontalAlignment="Left" Height="27" Margin="34,68,0,0" VerticalAlignment="Top" Width="64"/>
+        <Button x:Name="Sign" Content="Sign in" Click="Sign_Click" HorizontalAlignment="Left" Height="21" Margin="34,135,0,0" VerticalAlignment="Top" Width="105"/>
+        <Button x:Name="Continue" Content="Continue" Click="Continue_Click" HorizontalAlignment="Left" Height="21" Margin="155,135,0,0" VerticalAlignment="Top" Width="105"/>
+
+    </Grid>
+</Window>
